@@ -8,7 +8,7 @@ notas = [
 soma_medias = 0
 
 for aluno_notas in notas:
-    media = sum(aluno_notas) / len(aluno_notas)  # Calcula a média das notas de um aluno
+    media = sum(aluno_notas) / len(aluno_notas)  
     soma_medias += media  
 
 print(f"Soma das médias dos alunos: {soma_medias:.2f}")
