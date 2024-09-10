@@ -21,6 +21,3 @@ def chatbot():
         
         resposta = responder_entrada(usuario_entrada)
         print(f"Chatbot: {resposta}")
-
-if __name__ == "__main__":
-    chatbot()
