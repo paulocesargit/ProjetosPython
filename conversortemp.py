@@ -33,6 +33,3 @@ def menu():
         print(f"Temperatura em Celsius: {kelvin_para_celsius(kelvin)}")
     else:
         print("Escolha inválida!")
-
-if __name__ == "__main__":
-    menu()
